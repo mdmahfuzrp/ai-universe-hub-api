@@ -1,0 +1,122 @@
+/* Scroll Bar Design */
+/* Change scrollbar width and color */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Change scrollbar thumb color and shape */
+  ::-webkit-scrollbar-thumb {
+    background-color: #eb575776;
+    border-radius: 5px;
+  }
+  
+  /* Change scrollbar hover effect */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #EB5757;
+  }  
+
+
+/* 'Work san's font work for all body text */
+/* Default Font Family */
+body{
+    font-family: 'Work Sans', sans-serif;
+    /* Default Color */
+    color: #585858 !important;
+}
+.text-default-color{
+    color: #111111 !important;
+}
+/* If you need jus color than you use this */
+.my-bg{
+    background-color: rgb(235, 87, 87) !important;
+}
+
+/* If you need hover effect with background color than you use this */
+.my-bg-hover{
+    background-color: rgb(235, 87, 87) !important;
+}
+.my-bg-hover:hover{
+    background-color: rgb(235, 62, 62) !important;
+}
+
+/* If you need jus color than you use this */
+.my-color{
+    color: #EB5757 !important;
+}
+
+/* If you need hover effect with color than you use this */
+.my-color-hover{
+    color: #EB5757 !important;
+}
+.my-color-hover:hover{    
+    color: rgb(235, 62, 62) !important;
+
+}
+.card-body #right-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card-body #right-icon #details-icon{
+    transition: .2s ease-in-out;
+}
+.card-body #right-icon:hover #details-icon{
+    margin-right: -7px;
+}
+.modal-box{
+    overflow: visible !important;
+}
+#modal-close{
+    position: absolute !important;
+    right: -7px !important;
+    top: -10px !important
+}
+.modal-container{
+    overflow-y: auto !important;
+    height: 475px !important;
+}
+#loader{
+    position: relative;
+    z-index: 100000;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#loader-img{
+    position: fixed;
+    z-index: 100000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.plan-box{
+    width: 130px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#acuracy{
+    position: absolute;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 27px;
+    min-height: 27px !important;
+    right: 10px;
+    top: 10px;
+}
+.badge{
+    background-color: transparent !important;
+}
